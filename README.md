@@ -19,4 +19,18 @@ Sistema de reservas para un hotel realizado en Java
 
 ## Demo
 
+https://user-images.githubusercontent.com/115195236/232333731-bd7ba305-343f-41ca-a917-13eafca546b7.mp4
+
+
+
+https://user-images.githubusercontent.com/115195236/232333745-3bd7970e-af67-42b5-9384-6fe4db54ad2e.mp4
+
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matiasjb95/)
+
+https://app.aluracursos.com/emprega-one/profile/matiasss95
+
+
 
