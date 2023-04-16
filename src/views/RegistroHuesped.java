@@ -330,6 +330,7 @@ public class RegistroHuesped extends JFrame {
 	}
 	
 	private void guardarHuespedes() {
+		Busqueda menuBus = new Busqueda();
 		if(txtFechaN.getDate() != null && !txtNombre.equals("") && !txtApellido.equals("") && !txtTelefono.equals("")) {
 			LocalDate fechaNacimiento = LocalDate.parse(((JTextField)txtFechaN.getDateEditor().getUiComponent()).getText());
 			int idreserva = Integer.parseInt(txtNreserva.getText());
@@ -337,6 +338,8 @@ public class RegistroHuesped extends JFrame {
 			this.huespedesController.guardar(huespedes);
 			JOptionPane.showMessageDialog(null, "El huesped ha sido registrado correctamente con id: " + huespedes.getIdReserva());
 			dispose();
+			menuBus.setVisible(true);
+			
 			
 		}else {
 			JOptionPane.showMessageDialog(this, "Todos los campos son obligatorios");

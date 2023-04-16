@@ -11,6 +11,7 @@ import java.util.List;
 
 import jdbc.modelo.Huespedes;
 import jdbc.modelo.Reservas;
+import views.MenuUsuario;
 
 public class HuespedesDao {
 	private Connection con;
@@ -21,7 +22,6 @@ public class HuespedesDao {
 	}
 	
 	public void guardar(Huespedes huespedes) {
-		
 		try {
 			String sql= "INSERT INTO huespedes(nombre, apellido, fecha_nacimiento, nacionalidad, telefono, id_reserva)"
 					+ "VALUES(?,?,?,?,?,?)";
@@ -34,6 +34,7 @@ public class HuespedesDao {
 			pstm.setString(5, huespedes.getTelefono());
 			pstm.setInt(6, huespedes.getIdReserva());
 			pstm.execute();
+		
 			try(ResultSet rst = pstm.getGeneratedKeys()) {
 				while(rst.next()) {
 					huespedes.setId(rst.getInt(1));
