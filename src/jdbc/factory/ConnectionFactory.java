@@ -15,7 +15,7 @@ public ConnectionFactory() {
 	ComboPooledDataSource comboPooledDataSource = new ComboPooledDataSource();
 	comboPooledDataSource.setJdbcUrl("jdbc:mysql://localhost/hotel_alura?useTimeZone=true&serverTimeZone=UTC");
 	comboPooledDataSource.setUser("root");
-	comboPooledDataSource.setPassword("oasisrock");
+	comboPooledDataSource.setPassword("12345");
 	
 	this.dataS = comboPooledDataSource;
 } 
