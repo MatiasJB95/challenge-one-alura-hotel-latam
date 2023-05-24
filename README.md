@@ -69,14 +69,11 @@ https://user-images.githubusercontent.com/115195236/232333745-3bd7970e-af67-42b5
 
 
 ## 🔗 Links
-
-
-
-![cms_files_10224_1677508436Prancheta_1](https://github.com/MatiasJB95/challenge-one-alura-hotel-latam/assets/115195236/9b0d63e3-8c0b-4010-984e-d63d16b5b8bf)
-
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/matiasjb95/)
 
 https://app.aluracursos.com/emprega-one/profile/matiasss95
+
+![cms_files_10224_1677508436Prancheta_1](https://github.com/MatiasJB95/challenge-one-alura-hotel-latam/assets/115195236/9b0d63e3-8c0b-4010-984e-d63d16b5b8bf)
 
 
 
